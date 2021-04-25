@@ -5,10 +5,10 @@ name 'fatpeople'
 author 'DreamingCodes'
 url 'https://dreaming.codes'
 
---dependency 'yarn'
---dependency 'webpack'
+dependency 'yarn'
+dependency 'webpack'
 
---webpack_config 'webpack.config.js'
+webpack_config 'webpack.config.js'
 
 client_script 'dist/client/*.client.js'
 
